@@ -17,15 +17,14 @@ interface IReceiver {
     public String getInfo();
 }
 
-class Email1 implements IReceiver{
+class Email1 implements IReceiver {
     public String getInfo() {
         return "电子邮件信息; Hello world";
     }
 }
 
 //增加微信
-class WeiXin implements IReceiver{
-
+class WeiXin implements IReceiver {
     @Override
     public String getInfo() {
         return "微信信息; Hello world";
