@@ -1,4 +1,4 @@
-package singleton;
+package singleton.type1;
 
 /**
  * @author jamesChan
